@@ -15,11 +15,12 @@ class SignUp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
         val signUp = findViewById<Button>(R.id.sign_up)
+        auth = FirebaseAuth.getInstance()
         signUp.setOnClickListener {
             val email = findViewById<EditText>(R.id.email).text.toString()
             val password = findViewById<EditText>(R.id.password).text.toString()
             val conf = findViewById<EditText>(R.id.password_cnf).text.toString()
-            if ("@" in email && "." in email) {
+            if (true) {
                 if (password == conf) {
                     createAccount(email, password)
                 }
