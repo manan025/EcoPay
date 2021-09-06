@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "606030087006",
+    "firebase_url": "https://ecopay-7d093-default-rtdb.firebaseio.com",
+    "project_id": "ecopay-7d093",
+    "storage_bucket": "ecopay-7d093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606030087006:android:1e419e33a2769ff0fbc5cf",
+        "android_client_info": {
+          "package_name": "co.mananpro.ecopay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606030087006-nq4r1376lcmecho5md1t431962ell19c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIrPXb8TJKbpmv61P8LHLctFkfhJlg2sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606030087006-nq4r1376lcmecho5md1t431962ell19c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
